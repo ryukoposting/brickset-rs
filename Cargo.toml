@@ -1,12 +1,18 @@
 [package]
 name = "brickset"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "BrickSet API bindings"
+authors = [ "Evan Perry Grove <evan@4grove.com>" ]
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/ryukoposting/brickset-rs"
+repository = "https://github.com/ryukoposting/brickset-rs"
 
 [features]
 default = [ "log", "reqwest" ]
+# Generate log messages using the `log` crate.
 log = [ "dep:log" ]
+# High-level wrapper for `reqwest`.
 reqwest = [ "dep:reqwest" ]
 
 [dev-dependencies]
