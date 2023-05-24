@@ -1,5 +1,7 @@
 # BrickSet API
 
+[![Latest Version]][https://crates.io/crates/brickset]
+
 This crate provides utilities for working with the [BrickSet API](https://brickset.com/article/52666/brickset-web-services).
 This includes:
 
